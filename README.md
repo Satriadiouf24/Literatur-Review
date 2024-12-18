@@ -26,36 +26,30 @@ Dengan demikian, tinjauan pustaka bukan hanya sekadar ringkasan, tetapi juga ala
 link 
 
 
-## Pemanfaatan Machine Learning menggunakan algoritma Neural Network untuk Tuning PID dalam Kontrol Suhu iTCLab
+## Sistem Deteksi Kesegaran Apel Berbasis Video Menggunakan YOLOV8
 
-Literature Review:
-•	evaluating information sources
-•	searching and locating information resources
-•	developing conceptual frameworks and mind mapping
-•	writing the literature review.
+Sistem Deteksi Kesegaran Apel Berbasis Video Menggunakan YOLOV8
 Key points: 
-•	Machine Learning
-o	Neural Network
-•	Proportional Integral Derivative
-•	Tuning Parameter
-•	Internet-Based Temperature Control Lab Kit
+•	Algoritma Yolo 
+•	Sistem Deteksi Kesegaran Apel
+•	Berbasis Video
+•	Otomatisasi dan Aplikasi Praktis
 
-1.	Evaluating information sources : Sciencedirect, IEEE, dll
-2.	Searching and locating information resources (menggunakan key points)
--	Download versi bibtex
--	Upload di Mendeley
 
 3.	Developing conceptual frameworks and mind mapping
+![mind mapping Riset_informatika drawio (6)](https://github.com/user-attachments/assets/377b093f-9bf9-46fc-a2b4-7e765093a926)
 
  
-![mind mapping Riset_informatika drawio (3)](https://github.com/user-attachments/assets/37c97c75-399c-4a71-a182-9015754964b5)
 
 
 4.	Writing the literature review.
-Pengendalian (Kontrol) suhu salah satu elemen kunci dalam banyak aplikasi industri, dan stabilitas serta responsivitas sistem kontrol yang penting untuk memastikan operasi yang efisien. Tuning PID, meskipun sudah menjadi metode yang bagus, menghadapi tantangan dalam aplikasi praktis. Berbagai faktor, seperti perubahan dinamis dalam karakteristik sistem dan gangguan eksternal, sering kali menyebabkan kesalahan dalam tuning yang dapat berakibat fatal pada performa sistem pada aplikasi.
-Menurut penelitian oleh Zhang et al. (2020), kesalahan dalam proses tuning dapat mengakibatkan ketidakstabilan dan performa yang buruk, seperti overshoot yang tinggi, waktu settling yang lama, dan ketidakmampuan sistem untuk mencapai setpoint yang diinginkan. Dengan meningkatnya kompleksitas sistem dan tuntutan untuk kinerja yang lebih baik, kebutuhan akan metode tuning yang lebih adaptif menjadi semakin mendesak.
-Machine learning, khususnya algoritma Neural Network, telah muncul sebagai solusi inovatif untuk masalah ini. Neural Network mampu menganalisis data dalam jumlah besar, mengenali pola yang kompleks, dan menyesuaikan model berdasarkan kondisi yang berubah-ubah. Penelitian sebelumnya menunjukkan bahwa penggunaan machine learning dalam pengendalian sistem dapat menghasilkan peningkatan signifikan dalam efisiensi dan akurasi kontrol (Almeida et al., 2019). Sebagai contoh, Rahmat et al. (2023) menunjukkan bahwa penggunaan deep learning dalam tuning PID di iTCLab tidak hanya meningkatkan kecepatan respons, tetapi juga mengurangi overshoot dan meminimalkan deviasi suhu.
+Banyak negara yang beriklim tropis dan tanah yang subur menjadikan suatu negara yang ideal untuk menanam berbagai jenis tanaman, termasuk apel yang tumbuh di daerah beriklim sejuk seperti dataran tinggi dan penggunungan.  Pengelolaan hasil panen apel membutuhkan kualitas buah yang baik agar produk olahan juga memiliki kualitas terjamin. Metode konvensional dalam kualitas apel masih menggunakan indera penglihatan manusia berdasarkan bentuk fisik buah. Namun, metode ini memiliki beberapa kekurangan, seperti penghitungan yang tidak akurat dan biaya tenaga kerja yang tinggi.
+Algoritma pembelajaran mendalam telah memperoleh hasil deteksi yang memuaskan berdasarkan kemampuan ekstraksi fitur yang kuat dari Convolutional Neural Network (CNN) dan telah muncul sebagai rute pengembangan signifikan untuk deteksi apel (Kapach et al., 2012). Salah satu algoritma dalam computer vision yang masih berkembang dan banyak digunakan saat ini adalah metode YOLO (You Only Look Once). Pengembangan metode yolo dengan algoritma CNN yaitu YOLOv8 memiliki kinerja yang lebih baik dalam hal akurasi dan kecepatan dalam proses deteksi objek dibandingkan dengan versi YOLO yang sebelumnya [6].
+Oleh karena itu, penelitian ini mengusulkan sistem deteksi kualitas dan perhitungan buah apel menggunakan metode YOLOv8. Pada penelitian ini dilakukan deteksi dan perhitungan buah apel kualitas baik dan busuk dengan sampel yang digunakan sebanyak 3000 citra yang akan dibagi dalam dua kelas yaitu fresh(segar) dan Stale(busuk). Dengan melakukan penelitian system deteksi kualitas kesegaran apel melalui pelatihan model YOLOv8 diharapkan Meningkatkan akurasi deteksi kualitas apel dan konsistensi hasil dibandingkan dengan metode manual dan juga dapat Mengurangi waktu dan tenaga yang dibutuhkan untuk memeriksa dan menghitung apel secara manual.
+
 
 Referensi
-Zhang, Y., Wang, Y., & Liu, X. (2020). Tuning PID controllers using machine learning techniques: A review. Journal of Process Control, 88, 24-36.
-Rahmat, B., Aditama, A. S., & Nursari, M. (2023). ITCLab PID Control Tuning Using Deep Learning. In Proceeding - IEEE 9th Information Technology International Seminar, ITIS 2023. Institute of Electrical and Electronics Engineers Inc. Available at: https://doi.org/10.1109/ITIS59651.2023.10420130.
+Kapach, K., Barnea, E., Mairon, R., Edan, Y., & Ben-Shahar,O. (2012). Computer vision for fruit harvesting robots - state of the art and challenges ahead. International Journal of Computational Vision and Robotics, 3(1-2), 4–34.
+https://doi.org/10.1504/IJCVR.2012.046419
+J. Terven, D.-M. Córdova-Esparza, and J.-A. RomeroGonzález, <A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS,= Machine Learning and Knowledge Extraction, vol. 5, no. 4, pp. 1680–1716, Nov. 2023, doi: 10.3390/make5040083
+
